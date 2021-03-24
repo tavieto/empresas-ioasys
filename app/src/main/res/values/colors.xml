@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_button">#57BBBC</color>
+    <color name="background_button_error">#748383</color>
+    <color name="text_email">#494758</color>
+    <color name="text_password">#403e4d</color>
+    <color name="charcoal_grey">#383743</color>
 </resources>
