@@ -12,4 +12,7 @@
     <color name="text_email">#494758</color>
     <color name="text_password">#403e4d</color>
     <color name="charcoal_grey">#383743</color>
+    <color name="medium_pink">#ee4c77</color>
+    <color name="beige">#ebe9d7</color>
+    <color name="loading">#99ffffff</color>
 </resources>

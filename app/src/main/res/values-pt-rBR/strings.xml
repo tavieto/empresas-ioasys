@@ -3,4 +3,5 @@
     <string name="login">Entrar</string>
     <string name="welcome_message">BEM-VINDO AO\nEMPRESAS</string>
     <string name="hint_password">Senha</string>
+    <string name="home_text">Clique na busca para iniciar.</string>
 </resources>
