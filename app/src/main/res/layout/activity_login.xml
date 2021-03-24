@@ -7,7 +7,6 @@
     android:background="#ebe9d7"
     tools:context=".LoginActivity">
 
-
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imgLogo"
         android:layout_width="wrap_content"
@@ -80,11 +79,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:background="#57bbbc"
+        android:background="@color/background_button"
         android:text="@string/login"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="@id/txtSubtext"
         app:layout_constraintStart_toStartOf="@id/txtSubtext"
-        app:layout_constraintTop_toBottomOf="@id/edtPassword" />
+        app:layout_constraintTop_toBottomOf="@id/edtPassword"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
