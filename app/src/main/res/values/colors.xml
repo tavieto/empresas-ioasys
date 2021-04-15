@@ -13,6 +13,11 @@
     <color name="text_password">#403e4d</color>
     <color name="charcoal_grey">#383743</color>
     <color name="medium_pink">#ee4c77</color>
+    <color name="night_blue">#0d0430</color>
     <color name="beige">#ebe9d7</color>
     <color name="loading">#99ffffff</color>
+    <color name="login_warning">#ff0f44</color>
+    <color name="colorNavBar">#140c35</color>
+    <color name="imageGreen">#7dc075</color>
+    <color name="warmGrey">#8d8c8c</color>
 </resources>

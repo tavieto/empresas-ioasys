@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/navToolbarDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/toolbar_background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtNameCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:gravity="start"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="@color/white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageCompany"
+        android:layout_width="0dp"
+        android:layout_height="155dp"
+        android:background="@color/imageGreen"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navToolbarDetails"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageCompany"
+        app:layout_constraintStart_toStartOf="@id/imageCompany"
+        app:layout_constraintEnd_toEndOf="@id/imageCompany"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/source_sans_pro_regular"
+        android:gravity="start"
+        android:textColor="@color/warmGrey"
+        android:textSize="17sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

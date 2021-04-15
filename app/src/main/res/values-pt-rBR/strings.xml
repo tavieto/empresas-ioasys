@@ -4,4 +4,6 @@
     <string name="welcome_message">BEM-VINDO AO\nEMPRESAS</string>
     <string name="hint_password">Senha</string>
     <string name="home_text">Clique na busca para iniciar.</string>
+    <string name="login_error">As credenciais informadas são inválidas, tente novamente.</string>
+    <string name="description_logo">logo ioasys</string>
 </resources>

@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name" translatable="false">Empresas</string>
+    <string name="app_name" translatable="false">Empresas Ioasys</string>
     <string name="login">Login</string>
     <string name="welcome_message">WELCOME TO\nEMPRESAS</string>
     <string name="welcome_subtext" translatable="false">Lorem ipsum dolor sit amet, contetur adipiscing elit. Nunc accumsan.</string>
     <string name="hint_email" translatable="false">E-mail</string>
     <string name="hint_password">Password</string>
     <string name="home_text">Click in search to start.</string>
+    <string name="login_error">The credentials are invalid, please try again.</string>
+    <string name="description_logo">ioasys icon</string>
 </resources>
