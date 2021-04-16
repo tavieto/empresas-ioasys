@@ -39,6 +39,7 @@
         android:layout_marginRight="48dp"
         android:gravity="center"
         android:text="@string/welcome_subtext"
+        android:importantForAccessibility="no"
         style="@style/Text"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +53,7 @@
         android:layout_marginTop="60dp"
         app:backgroundTint="@color/charcoal_grey"
         android:drawableStart="@drawable/icon_email"
+        android:paddingEnd="12dp"
         android:drawablePadding="8dp"
         android:hint="@string/hint_email"
         android:inputType="textEmailAddress"
@@ -69,7 +71,7 @@
         app:layout_constraintStart_toStartOf="@id/txtSubtext"
         app:layout_constraintTop_toBottomOf="@id/edtEmail"
         app:endIconMode="password_toggle"
-        app:errorEnabled="true">
+        app:boxStrokeColor="@color/charcoal_grey">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -84,20 +86,6 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/txtLoginError"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/login_error"
-        app:layout_constraintTop_toBottomOf="@id/edtPassword"
-        app:layout_constraintStart_toStartOf="@id/txtSubtext"
-        app:layout_constraintEnd_toEndOf="@id/txtSubtext"
-        android:textSize="12sp"
-        android:gravity="center"
-        android:textColor="@color/login_warning"
-        android:visibility="gone"
-        android:layout_marginTop="12dp"/>
-
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogin"
         android:layout_width="0dp"
@@ -108,7 +96,7 @@
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="@id/txtSubtext"
         app:layout_constraintStart_toStartOf="@id/txtSubtext"
-        app:layout_constraintTop_toBottomOf="@id/txtLoginError" />
+        app:layout_constraintTop_toBottomOf="@id/edtPassword" />
 
     <View
         android:id="@+id/bcProgressBar"
